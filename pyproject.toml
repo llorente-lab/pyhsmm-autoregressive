@@ -20,8 +20,8 @@ dependencies=[
     'numpy<2.0.0', 
     'scipy', 
     'matplotlib', 
-    "pybasicbayes @ git+https://github.com/sneakers-the-rat/pybasicbayes.git@packaging",
-    "pyhsmm @ git+https://github.com/sneakers-the-rat/pyhsmm.git@packaging",
+    "pybasicbayes @ git+https://github.com/llorente-lab/pybasicbayes.git@main",
+    "pyhsmm @ git+https://github.com/llorente-lab/pyhsmm.git@main",
 ]
 classifiers=[
     'Intended Audience :: Science/Research',
