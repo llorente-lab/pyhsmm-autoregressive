@@ -6,7 +6,7 @@ from setuptools.extension import Extension
 
 extensions = [
     Extension(
-        'messages', 
+        'autoregressive.messages',
         [os.path.join('autoregressive','messages.pyx')],
         extra_compile_args=['-O2', '-std=c++11', '-DEIGEN_NO_MALLOC', '-DNDEBUG','-w','-DHMM_TEMPS_ON_HEAP']
     )
